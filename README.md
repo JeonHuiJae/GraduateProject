@@ -1,2 +1,0 @@
-# GraduateProject
-VR game
