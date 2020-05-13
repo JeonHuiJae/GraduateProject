@@ -19,17 +19,6 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Fire"
-						}
-					}
-				},
-				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/thumbstick",
 					"inputs":
@@ -74,5 +63,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "First Person BP Game Template-11590370"
 }
