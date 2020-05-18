@@ -38,51 +38,6 @@
 					},
 					"inputs":
 					{
-						"east":
-						{
-							"output": "/actions/main/in/MoveForward axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/MoveForward axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/MoveForward axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
 						"south":
 						{
 							"output": "/actions/main/in/MoveForward axis"
@@ -98,7 +53,22 @@
 					},
 					"inputs":
 					{
-						"east":
+						"north":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"west":
 						{
 							"output": "/actions/main/in/MoveRight axis"
 						}
@@ -113,7 +83,7 @@
 					},
 					"inputs":
 					{
-						"west":
+						"east":
 						{
 							"output": "/actions/main/in/MoveRight axis"
 						}
