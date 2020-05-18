@@ -34,7 +34,37 @@
 					"path": "/user/hand/left/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "click"
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"east":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
 					},
 					"inputs":
 					{
@@ -46,14 +76,44 @@
 				},
 				{
 					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/MoveForward axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
 					"path": "/user/hand/left/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "click"
+						"sub_mode": "touch"
 					},
 					"inputs":
 					{
 						"east":
+						{
+							"output": "/actions/main/in/MoveRight axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"west":
 						{
 							"output": "/actions/main/in/MoveRight axis"
 						}
