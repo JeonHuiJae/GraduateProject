@@ -8,17 +8,6 @@
 		{
 			"sources": [
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Jump"
-						}
-					}
-				},
-				{
 					"mode": "button",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
@@ -30,62 +19,24 @@
 					}
 				},
 				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
+					"mode": "scalar_constant",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
-						"south":
+						"value":
 						{
 							"output": "/actions/main/in/MoveForward axis"
 						}
 					}
 				},
 				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
-						"north":
+						"value":
 						{
 							"output": "/actions/main/in/MoveForward axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/MoveRight axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"east":
-						{
-							"output": "/actions/main/in/MoveRight axis"
 						}
 					}
 				}
