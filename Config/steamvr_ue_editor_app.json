@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.first-person-bp-game-template-13594126.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/VR/Documents/졸업프로젝트2020/GraduateProject 4.25/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "C:/Users/VR/Documents/졸업프로젝트2020/GraduateProject/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
